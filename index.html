@@ -17,6 +17,9 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
+				<div id="bg-canvas">
+					<canvas id="demo-canvas"></canvas>
+				</div>
 
 				<!-- Header -->
 					<header id="header">
@@ -46,7 +49,7 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Experience:<br>Software & Robotics</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<!-- <span class="image main"><img src="images/pic01.jpg" alt="" /></span> -->
 								<p>Programmed remote operation of a methane capture technology and secured over 300'000&nbsp;$ in grants to advance it from TRL3 to TRL5</p>
 								<p>Improved human-robot interaction of an <a href="https://aiforgood.itu.int/speaker/rehandybot/">end-effector robot</a> for unsupervised rehabilitation of the hand</p>
 								<p><a href="https://patents.google.com/patent/WO2022178641A1/en">Patented</a> a method of acquiring flight data for an unmanned aerial vehicle and improved flight endurance by over 50&nbsp;%</p>
@@ -55,7 +58,7 @@
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Education:<br>Engineering MSc. & AI</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
 								<p>Developed a <a href="https://escholarship.mcgill.ca/concern/theses/6d570243q">single control law</a> for a passively-coupled tilt-rotor aircraft to transition smoothly between flight modes</p>
 								<p>Published a <a href="https://onlinelibrary.wiley.com/doi/10.1002/cjce.23507">study</a> on the role of artificial intelligence in engineering disciplines</p>
 								<p>Studied causality in convolutional neural network architecture by ablating layers</p>
@@ -64,7 +67,7 @@
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">Interests:<br>Algorithms & Biomimetics</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<!-- <span class="image main"><img src="images/pic03.jpg" alt="" /></span> -->
 								<p>Developed a <a href="https://play.google.com/store/apps/details?id=com.patience.analyfticskmm">mobile application</a> to optimize workouts and estimate one-rep maximums</p>
 								<p>Navigated a differential wheeled robot through a maze with SLAM via various the shortest path algorithms</p>
 								<p>Published a <a href="https://pubs.acs.org/doi/10.1021/acsami.6b11239">biomimetics paper</a> on hydrophobicity inspired by shark skin</p>
@@ -354,14 +357,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</div>
 
 		<!-- BG -->
-			<div id="bg"></div>
+			<div id="bg">
+			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenLite.min.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/CSSPlugin.min.js"></script> -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/background.js"></script>
 	</body>
 </html>
